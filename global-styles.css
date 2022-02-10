@@ -91,6 +91,9 @@ body {
 .nav-container .nav-link {
   height: auto;
 }
+.nav-container .nav-link:hover {
+  color: var(--txt-color-light-2);
+}
 
 /* Button */
 
