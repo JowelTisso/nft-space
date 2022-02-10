@@ -1,0 +1,34 @@
+/* Container */
+.sidenav {
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  width: 30rem;
+}
+
+.content {
+  margin-left: 25rem;
+  margin-top: 6rem;
+}
+
+/* Sidenav */
+.sidenav-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clear-btn:hover {
+  color: var(--txt-color-light-2);
+}
+
+/* Category */
+.category-item {
+  display: flex;
+  align-items: center;
+}
+
+.category-item label {
+  margin-left: 1rem;
+}
