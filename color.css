@@ -1,0 +1,28 @@
+/* Theme 1 */
+:root {
+  /* Main */
+  --primary-color: #facc15;
+  --secondary-color: #b370b0;
+  --bg-color: #fffffc;
+  --txt-color: #1f2937;
+  --txt-color-2: #fffffc;
+  /* --cta-color: #dc2626; */
+  --cta-color: #d81e5b;
+
+  /* Shades */
+  --primary-color-light: #fde047;
+  --primary-color-dark: #eab308;
+  --txt-color-light: #374151;
+  --txt-color-dark: #111827;
+  --cta-color-light: #ff5a91;
+  --cta-color-dark: #cf1150;
+  --bg-color-2: #f5f2f2;
+}
+
+/* Color class */
+.bg-pri-color {
+  background-color: var(--primary-color);
+}
+.txt-color {
+  color: var(--txt-color-2);
+}
