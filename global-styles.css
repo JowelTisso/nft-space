@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 @import url(https://shieldui.netlify.app/css/shield.css);
 @import url(./color.css);
 
@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: var(--text-color);
+  color: var(--txt-color);
 }
 
 html {
@@ -20,4 +20,190 @@ html {
 
 body {
   background-color: var(--bg-color);
+}
+
+/***********/
+/* Header */
+
+/* Container */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 0px 1px 2px var(--bg-color-2);
+  background-color: var(--bg-color);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.header-middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Typography */
+
+.logo-title {
+  color: var(--primary-color);
+}
+
+/*Search Input */
+
+.search-icon {
+  position: relative;
+}
+
+.search-icon i {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+  font-size: 1.3rem;
+  color: var(--txt-color-light-2);
+}
+
+.search-icon input {
+  padding-left: 3rem;
+  height: 3.6rem;
+  border: 1px solid var(--border-color);
+}
+
+.search-icon input:focus {
+  outline: none;
+}
+
+/* Nav */
+
+.nav-container .nav-link {
+  height: auto;
+}
+
+/* Button */
+
+.btn-sm {
+  min-height: 3.5rem;
+  height: 3.5rem;
+  min-width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Icon */
+
+.badge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  color: var(--txt-color-2);
+  z-index: 1;
+}
+
+.ic-normal {
+  font-size: 2.4rem;
+}
+
+.ic-normal:hover {
+  color: var(--txt-color-light-2);
+}
+/* Header */
+/***********/
+
+/***********/
+/* Content */
+
+/* Container */
+
+.row-category-container {
+  display: flex;
+  overflow: auto;
+  justify-content: center;
+}
+
+.scroll {
+  display: flex;
+  gap: 3rem;
+}
+
+/* Image */
+.img-category {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10px;
+  object-fit: cover;
+  display: inline-block;
+  box-shadow: 1px 2px 5px 3px var(--bg-color-2);
+}
+
+.img-category:hover {
+  box-shadow: 0px 1px 10px 1px var(--primary-color);
+}
+
+/* Carousel */
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  height: 40rem;
+}
+
+.img-carousel {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Category card */
+
+.category-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-shadow-hz {
+  /* box-shadow: 0px 0px 3px 1px rgb(226, 218, 218); */
+}
+
+.card:hover {
+  /* box-shadow: 0px 1px 10px 1px var(--primary-color); */
+  box-shadow: 0px 0px 3px 1px rgb(226, 218, 218);
+}
+
+.card-img-horizontal {
+  object-fit: cover;
+  width: 20rem;
+}
+
+/* Content */
+/***********/
+
+/* Util */
+.pointer {
+  cursor: pointer;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hover-shadow {
+  box-shadow: 0px 1px 10px 1px var(--primary-color);
 }

@@ -13,6 +13,7 @@
   --primary-color-light: #fde047;
   --primary-color-dark: #eab308;
   --txt-color-light: #374151;
+  --txt-color-light-2: #64748b;
   --txt-color-dark: #111827;
   --cta-color-light: #ff5a91;
   --cta-color-dark: #cf1150;
@@ -23,6 +24,9 @@
 .bg-pri-color {
   background-color: var(--primary-color);
 }
-.txt-color {
+.color-light {
   color: var(--txt-color-2);
+}
+.color-dark {
+  color: var(--txt-color);
 }
