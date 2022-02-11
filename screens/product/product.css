@@ -8,6 +8,10 @@
   width: 30rem;
 }
 
+.sidenav::-webkit-scrollbar {
+  visibility: hidden;
+}
+
 .content {
   margin-left: 25rem;
   margin-top: 6rem;
