@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product</title>
+    <title>Wishlist</title>
     <link
       rel="shortcut icon"
       href="../../assets/logo.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../../global-styles.css" />
-    <link rel="stylesheet" href="./product.css" />
+    <link rel="stylesheet" href="./wishlist.css" />
   </head>
   <body>
     <header class="header-container pd-1x pd-right-4x pd-left-4x">
@@ -35,9 +35,7 @@
         <button class="btn btn-primary btn-sm">Login</button>
 
         <div class="badge-container pointer mg-left-4x">
-          <a href="../wishlist/wishlist.html">
-            <ion-icon name="heart-outline" class="ic-normal"></ion-icon>
-          </a>
+          <ion-icon name="heart-outline" class="ic-normal"></ion-icon>
           <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
         </div>
 
@@ -54,120 +52,15 @@
       </div> -->
     </header>
     <div class="content-wrapper">
-      <aside
-        id="drawer"
-        class="sidenav pd-left-4x pd-top-2x pd-right-2x pd-bottom-3x"
-      >
-        <nav>
-          <ul class="no-bullet">
-            <li class="sidenav-header">
-              <p class="t4 mg-bottom-2x fw-4x">Filters</p>
-              <p class="t4 mg-bottom-2x fw-4x pointer clear-btn">Clear</p>
-            </li>
-
-            <li>
-              <p class="t4 fw-4x mg-top-1x">Price</p>
-            </li>
-
-            <div id="slide" class="slider-container mg-top-2x">
-              <div class="range-label">
-                <label class="t4" for="">0</label>
-                <label id="slider-value" class="t4 mg-left-2x" for="">0</label>
-                <label class="t4" for="">100</label>
-              </div>
-              <input
-                type="range"
-                min="1"
-                max="100"
-                value="50"
-                class="slider mg-top-2x"
-                id="slider"
-              />
-            </div>
-
-            <li class="mg-top-2x">
-              <p class="t4 fw-4x mg-top-1x">Category</p>
-            </li>
-
-            <li class="category-item mg-top-1x">
-              <input type="checkbox" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Art</label>
-            </li>
-
-            <li class="category-item">
-              <input type="checkbox" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Collectibles</label>
-            </li>
-
-            <li class="category-item">
-              <input type="checkbox" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Music</label>
-            </li>
-
-            <li class="category-item">
-              <input type="checkbox" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Photography</label>
-            </li>
-
-            <li class="category-item">
-              <input type="checkbox" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Sports</label>
-            </li>
-
-            <li class="category-item">
-              <input type="checkbox" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Utility</label>
-            </li>
-
-            <li class="mg-top-2x">
-              <p class="t4 fw-4x mg-top-1x">Ratings</p>
-            </li>
-
-            <li class="category-item mg-top-1x">
-              <input type="radio" name="" id="" />
-              <label class="t4 mg-top-1x" for="">4 Stars & above</label>
-            </li>
-
-            <li class="category-item">
-              <input type="radio" name="" id="" />
-              <label class="t4 mg-top-1x" for="">3 Stars & above</label>
-            </li>
-
-            <li class="category-item">
-              <input type="radio" name="" id="" />
-              <label class="t4 mg-top-1x" for="">2 Stars & above</label>
-            </li>
-
-            <li class="category-item">
-              <input type="radio" name="" id="" />
-              <label class="t4 mg-top-1x" for="">1 Stars & above</label>
-            </li>
-
-            <li class="mg-top-2x">
-              <p class="t4 fw-4x mg-top-1x">Sort by</p>
-            </li>
-
-            <li class="category-item mg-top-1x">
-              <input type="radio" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Price - Low to High</label>
-            </li>
-
-            <li class="category-item">
-              <input type="radio" name="" id="" />
-              <label class="t4 mg-top-1x" for="">Price - High to Low</label>
-            </li>
-          </ul>
-        </nav>
-      </aside>
-      <main class="content pd-2x">
-        <div class="content-header">
-          <p class="h4">Showing All NFT</p>
-          <p class="t4">(showing 8 products)</p>
+      <main class="content pd-4x pd-top-2x">
+        <div class="content-header mg-left-2x">
+          <p class="h4">Wishlist</p>
+          <p class="t4">(You have wishlist 8 items)</p>
         </div>
-        <div class="content-card-section pd-bottom-4x">
+        <div class="content-card-section pd-bottom-4x pd-left-1x">
           <div class="card">
             <div class="card-badge">
-              <i class="far fa-heart fa-2x"></i>
+              <i class="fas fa-heart fa-2x badge-active"></i>
             </div>
             <img
               class="card-img"
@@ -178,15 +71,23 @@
               <p class="card-title">Techno ape</p>
               <p class="card-sub-title">Bored ape club</p>
               <p class="card-description">00.12 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (126)</span>
+              </div>
             </div>
             <div class="card-btn-container">
-              <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn btn-secondary">MOVE TO CART</button>
             </div>
           </div>
 
           <div class="card">
             <div class="card-badge">
-              <i class="far fa-heart fa-2x"></i>
+              <i class="fas fa-heart fa-2x badge-active"></i>
             </div>
             <img
               class="card-img"
@@ -197,9 +98,17 @@
               <p class="card-title">The Last Doll</p>
               <p class="card-sub-title">Stephen Tompkins</p>
               <p class="card-description">00.14 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (112)</span>
+              </div>
             </div>
             <div class="card-btn-container">
-              <button class="btn btn-secondary">GO TO CART</button>
+              <button class="btn btn-secondary">MOVE TO CART</button>
             </div>
           </div>
 
@@ -216,15 +125,23 @@
               <p class="card-title">Crypto Van Gogh Punk</p>
               <p class="card-sub-title">Bored ape club</p>
               <p class="card-description">00.12 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (87)</span>
+              </div>
             </div>
             <div class="card-btn-container">
-              <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn btn-secondary">MOVE TO CART</button>
             </div>
           </div>
 
           <div class="card">
             <div class="card-badge">
-              <i class="far fa-heart fa-2x"></i>
+              <i class="fas fa-heart fa-2x badge-active"></i>
             </div>
             <img
               class="card-img"
@@ -235,15 +152,23 @@
               <p class="card-title">The Mutant Ape</p>
               <p class="card-sub-title">The Mutant Ape Yacht Club</p>
               <p class="card-description">00.15 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (154)</span>
+              </div>
             </div>
             <div class="card-btn-container">
-              <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn btn-secondary">MOVE TO CART</button>
             </div>
           </div>
 
           <div class="card">
             <div class="card-badge">
-              <i class="far fa-heart fa-2x"></i>
+              <i class="fas fa-heart fa-2x badge-active"></i>
             </div>
             <img
               class="card-img"
@@ -254,9 +179,17 @@
               <p class="card-title">Cute Monsters</p>
               <p class="card-sub-title">Halloween monters</p>
               <p class="card-description">00.16 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (210)</span>
+              </div>
             </div>
             <div class="card-btn-container">
-              <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn btn-secondary">MOVE TO CART</button>
             </div>
           </div>
 
@@ -273,15 +206,23 @@
               <p class="card-title">The Bored Ape</p>
               <p class="card-sub-title">Bored ape NFT</p>
               <p class="card-description">00.15 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (129)</span>
+              </div>
             </div>
             <div class="card-btn-container">
-              <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn btn-secondary">MOVE TO CART</button>
             </div>
           </div>
 
           <div class="card">
             <div class="card-badge">
-              <i class="far fa-heart fa-2x"></i>
+              <i class="fas fa-heart fa-2x badge-active"></i>
             </div>
             <img
               class="card-img"
@@ -292,15 +233,23 @@
               <p class="card-title">NIKE x DXTR</p>
               <p class="card-sub-title">Spring Summer</p>
               <p class="card-description">00.21 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (114)</span>
+              </div>
             </div>
             <div class="card-btn-container">
-              <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn btn-secondary">MOVE TO CART</button>
             </div>
           </div>
 
           <div class="card">
             <div class="card-badge">
-              <i class="far fa-heart fa-2x"></i>
+              <i class="fas fa-heart fa-2x badge-active"></i>
             </div>
             <img
               class="card-img"
@@ -311,6 +260,14 @@
               <p class="card-title">Juxtapoz Magazine</p>
               <p class="card-sub-title">DTRX The Weird</p>
               <p class="card-description">00.22 ETH</p>
+              <div class="rating-container">
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating rating-solid"></i>
+                <i class="rating"></i>
+                <i class="rating"></i>
+                <span class="txt-rating"> | (201)</span>
+              </div>
             </div>
             <div class="card-btn-container">
               <button class="btn btn-secondary">GO TO CART</button>

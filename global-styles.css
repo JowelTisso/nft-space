@@ -206,3 +206,9 @@ body {
 .hover-shadow {
   box-shadow: 0px 1px 10px 1px var(--primary-color);
 }
+
+/* Utils */
+.txt-rating {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
