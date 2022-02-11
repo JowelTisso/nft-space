@@ -1,4 +1,4 @@
-/* Container */
+/* Side nav */
 .sidenav {
   position: fixed;
   top: 6rem;
@@ -12,12 +12,6 @@
   visibility: hidden;
 }
 
-.content {
-  margin-left: 25rem;
-  margin-top: 6rem;
-}
-
-/* Sidenav */
 .sidenav-header {
   display: flex;
   justify-content: space-between;
@@ -50,4 +44,51 @@
   border-radius: 5px;
   width: 4rem;
   text-align: center;
+}
+
+/***********/
+/* Content */
+.content {
+  margin-left: 28rem;
+  margin-top: 6rem;
+  background-color: var(--bg-color-2);
+}
+
+.content-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.content-card-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 22rem;
+}
+
+.card-img {
+  width: 22rem;
+  height: 25rem;
+}
+
+.card-title {
+  height: 3rem;
+  overflow: hidden;
+}
+
+.card-sub-title {
+  height: 2rem;
+  overflow: hidden;
+}
+
+.card-description {
+  height: 3.5rem;
+  overflow: hidden;
+}
+
+.badge-active {
+  color: var(--cta-color);
 }
