@@ -67,6 +67,7 @@
 
 .card {
   width: 22rem;
+  background-color: var(--bg-color);
 }
 
 .card-img {
