@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link
+      rel="shortcut icon"
+      href="../../assets/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../global-styles.css" />
+    <link rel="stylesheet" href="./product.css" />
+  </head>
+  <body>
+    <header class="header-container pd-1x pd-right-4x pd-left-4x">
+      <div class="logo-container">
+        <img class="logo" src="../../assets/logo.png" alt="logo" />
+        <a
+          class="h3 mg-left-1x pointer logo-title no-deco"
+          href="../../index.html"
+        >
+          SPACE</a
+        >
+      </div>
+      <div class="header-middle">
+        <div class="input-container search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" class="input-simple" placeholder="Search" />
+        </div>
+      </div>
+
+      <nav class="nav-container">
+        <button class="btn btn-primary btn-sm">Login</button>
+
+        <div class="badge-container pointer mg-left-4x">
+          <ion-icon name="heart-outline" class="ic-normal"></ion-icon>
+          <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
+        </div>
+
+        <div class="badge-container pointer mg-left-4x">
+          <ion-icon name="cart-outline" class="ic-normal"></ion-icon>
+          <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
+        </div>
+
+        <a class="nav-link"> Cart </a>
+      </nav>
+
+      <!-- <div id="drawer-menu" class="header-menu-mb">
+        <i class="fas fa-bars fa-2x"></i>
+      </div> -->
+    </header>
+    <div class="content-wrapper">
+      <aside
+        id="drawer"
+        class="sidenav pd-left-4x pd-top-2x pd-right-2x pd-bottom-3x"
+      >
+        <nav>
+          <ul class="no-bullet">
+            <li class="sidenav-header">
+              <p class="t4 mg-bottom-2x fw-4x">Filters</p>
+              <p class="t4 mg-bottom-2x fw-4x pointer clear-btn">Clear</p>
+            </li>
+
+            <li>
+              <p class="t4 fw-4x mg-top-1x">Price</p>
+            </li>
+
+            <div id="slide" class="slider-container mg-top-2x">
+              <div class="range-label">
+                <label class="t4" for="">0</label>
+                <label id="slider-value" class="t4 mg-left-2x" for="">0</label>
+                <label class="t4" for="">100</label>
+              </div>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="50"
+                class="slider mg-top-2x"
+                id="slider"
+              />
+            </div>
+
+            <li class="mg-top-2x">
+              <p class="t4 fw-4x mg-top-1x">Category</p>
+            </li>
+
+            <li class="category-item mg-top-1x">
+              <input type="checkbox" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Art</label>
+            </li>
+
+            <li class="category-item">
+              <input type="checkbox" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Collectibles</label>
+            </li>
+
+            <li class="category-item">
+              <input type="checkbox" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Music</label>
+            </li>
+
+            <li class="category-item">
+              <input type="checkbox" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Photography</label>
+            </li>
+
+            <li class="category-item">
+              <input type="checkbox" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Sports</label>
+            </li>
+
+            <li class="category-item">
+              <input type="checkbox" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Utility</label>
+            </li>
+
+            <li class="mg-top-2x">
+              <p class="t4 fw-4x mg-top-1x">Ratings</p>
+            </li>
+
+            <li class="category-item mg-top-1x">
+              <input type="radio" name="" id="" />
+              <label class="t4 mg-top-1x" for="">4 Stars & above</label>
+            </li>
+
+            <li class="category-item">
+              <input type="radio" name="" id="" />
+              <label class="t4 mg-top-1x" for="">3 Stars & above</label>
+            </li>
+
+            <li class="category-item">
+              <input type="radio" name="" id="" />
+              <label class="t4 mg-top-1x" for="">2 Stars & above</label>
+            </li>
+
+            <li class="category-item">
+              <input type="radio" name="" id="" />
+              <label class="t4 mg-top-1x" for="">1 Stars & above</label>
+            </li>
+
+            <li class="mg-top-2x">
+              <p class="t4 fw-4x mg-top-1x">Sort by</p>
+            </li>
+
+            <li class="category-item mg-top-1x">
+              <input type="radio" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Price - Low to High</label>
+            </li>
+
+            <li class="category-item">
+              <input type="radio" name="" id="" />
+              <label class="t4 mg-top-1x" for="">Price - High to Low</label>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="content t1 color-dark"></main>
+    </div>
+
+    <!-- product script -->
+    <script src="product.js"></script>
+
+    <!-- Ion Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
