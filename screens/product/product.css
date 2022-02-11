@@ -32,3 +32,18 @@
 .category-item label {
   margin-left: 1rem;
 }
+
+/* Slider */
+
+.range-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.range-label #slider-value {
+  border: 1px solid var(--border-color);
+  padding: 1px 5px;
+  border-radius: 5px;
+  width: 4rem;
+  text-align: center;
+}

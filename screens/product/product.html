@@ -52,7 +52,10 @@
       </div> -->
     </header>
     <div class="content-wrapper">
-      <aside id="drawer" class="sidenav pd-left-3x pd-top-2x pd-right-1x">
+      <aside
+        id="drawer"
+        class="sidenav pd-left-4x pd-top-2x pd-right-2x pd-bottom-3x"
+      >
         <nav>
           <ul class="no-bullet">
             <li class="sidenav-header">
@@ -64,38 +67,54 @@
               <p class="t4 fw-4x mg-top-1x">Price</p>
             </li>
 
-            <li class="mg-top-6x">
+            <div id="slide" class="slider-container mg-top-2x">
+              <div class="range-label">
+                <label class="t4" for="">0</label>
+                <label id="slider-value" class="t4" for="">0</label>
+                <label class="t4" for="">100</label>
+              </div>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="50"
+                class="slider"
+                id="slider"
+              />
+            </div>
+
+            <li class="mg-top-2x">
               <p class="t4 fw-4x mg-top-1x">Category</p>
             </li>
 
             <li class="category-item mg-top-1x">
               <input type="checkbox" name="" id="" />
-              <label class="t4" for="">Art</label>
+              <label class="t4 mg-top-1x" for="">Art</label>
             </li>
 
             <li class="category-item">
               <input type="checkbox" name="" id="" />
-              <label class="t4" for="">Collectibles</label>
+              <label class="t4 mg-top-1x" for="">Collectibles</label>
             </li>
 
             <li class="category-item">
               <input type="checkbox" name="" id="" />
-              <label class="t4" for="">Music</label>
+              <label class="t4 mg-top-1x" for="">Music</label>
             </li>
 
             <li class="category-item">
               <input type="checkbox" name="" id="" />
-              <label class="t4" for="">Photography</label>
+              <label class="t4 mg-top-1x" for="">Photography</label>
             </li>
 
             <li class="category-item">
               <input type="checkbox" name="" id="" />
-              <label class="t4" for="">Sports</label>
+              <label class="t4 mg-top-1x" for="">Sports</label>
             </li>
 
             <li class="category-item">
               <input type="checkbox" name="" id="" />
-              <label class="t4" for="">Utility</label>
+              <label class="t4 mg-top-1x" for="">Utility</label>
             </li>
 
             <li class="mg-top-2x">
@@ -104,22 +123,22 @@
 
             <li class="category-item mg-top-1x">
               <input type="radio" name="" id="" />
-              <label class="t4" for="">4 Stars & above</label>
+              <label class="t4 mg-top-1x" for="">4 Stars & above</label>
             </li>
 
             <li class="category-item">
               <input type="radio" name="" id="" />
-              <label class="t4" for="">3 Stars & above</label>
+              <label class="t4 mg-top-1x" for="">3 Stars & above</label>
             </li>
 
             <li class="category-item">
               <input type="radio" name="" id="" />
-              <label class="t4" for="">2 Stars & above</label>
+              <label class="t4 mg-top-1x" for="">2 Stars & above</label>
             </li>
 
             <li class="category-item">
               <input type="radio" name="" id="" />
-              <label class="t4" for="">1 Stars & above</label>
+              <label class="t4 mg-top-1x" for="">1 Stars & above</label>
             </li>
 
             <li class="mg-top-2x">
@@ -128,18 +147,21 @@
 
             <li class="category-item mg-top-1x">
               <input type="radio" name="" id="" />
-              <label class="t4" for="">Price - Low to High</label>
+              <label class="t4 mg-top-1x" for="">Price - Low to High</label>
             </li>
 
             <li class="category-item">
               <input type="radio" name="" id="" />
-              <label class="t4" for="">Price - High to Low</label>
+              <label class="t4 mg-top-1x" for="">Price - High to Low</label>
             </li>
           </ul>
         </nav>
       </aside>
       <main class="content t1 color-dark"></main>
     </div>
+
+    <!-- product script -->
+    <script src="product.js"></script>
 
     <!-- Ion Icons -->
     <script
