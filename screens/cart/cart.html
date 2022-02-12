@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link
+      rel="shortcut icon"
+      href="../../assets/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../global-styles.css" />
+    <link rel="stylesheet" href="./cart.css" />
+  </head>
+  <body>
+    <header class="header-container pd-1x pd-right-4x pd-left-4x">
+      <div class="logo-container">
+        <img class="logo" src="../../assets/logo.png" alt="logo" />
+        <a
+          class="h3 mg-left-1x pointer logo-title no-deco"
+          href="../../index.html"
+        >
+          SPACE</a
+        >
+      </div>
+      <div class="header-middle">
+        <div class="input-container search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" class="input-simple" placeholder="Search" />
+        </div>
+      </div>
+
+      <nav class="nav-container">
+        <button class="btn btn-primary btn-sm">Login</button>
+
+        <div class="badge-container pointer mg-left-4x">
+          <a href="../wishlist/wishlist.html">
+            <ion-icon name="heart-outline" class="ic-normal"></ion-icon>
+          </a>
+          <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
+        </div>
+
+        <div class="badge-container pointer mg-left-4x">
+          <ion-icon name="cart-outline" class="ic-normal"></ion-icon>
+          <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
+        </div>
+
+        <a class="nav-link"> Cart </a>
+      </nav>
+
+      <!-- <div id="drawer-menu" class="header-menu-mb">
+        <i class="fas fa-bars fa-2x"></i>
+      </div> -->
+    </header>
+    <div class="content-wrapper">
+      <main class="content pd-4x pd-top-2x">
+        <section class="product-section">
+          <div class="content-header mg-left-2x">
+            <p class="h4">Cart</p>
+            <p class="t4">(You have 2 items in your cart)</p>
+          </div>
+          <div class="content-card-section pd-bottom-4x pd-left-1x">
+            <div class="card card-horizontal">
+              <img
+                class="card-img-horizontal"
+                src="https://i.pinimg.com/564x/82/ca/02/82ca023383e582af4eb065d45d37ff34.jpg"
+                alt="card image"
+              />
+              <div class="card-content-horizontal pd-bottom-2x">
+                <div class="card-content">
+                  <p class="card-title hide-ovrflw">Techno ape</p>
+                  <p class="card-sub-title hide-ovrflw">Bored ape club</p>
+                  <div class="price-container">
+                    <p class="card-description hide-ovrflw fw-4x">00.12 ETH</p>
+                    <p class="card-description hide-ovrflw text-gray strike">
+                      00.12 ETH
+                    </p>
+                  </div>
+
+                  <div class="rating-container">
+                    <i class="rating rating-solid"></i>
+                    <i class="rating rating-solid"></i>
+                    <i class="rating rating-solid"></i>
+                    <i class="rating"></i>
+                    <i class="rating"></i>
+                    <span class="txt-rating"> | (126)</span>
+                  </div>
+                  <div class="quantity mg-top-2x">
+                    <p class="quantity-title">Quantity :</p>
+                    <ion-icon
+                      name="remove"
+                      class="quantity-btn mg-left-2x"
+                    ></ion-icon>
+                    <p class="quantity-value mg-left-1x text-center">1</p>
+                    <ion-icon
+                      name="add"
+                      class="quantity-btn mg-left-1x"
+                    ></ion-icon>
+                  </div>
+                </div>
+                <div class="card-btn-container">
+                  <button class="btn btn-primary btn-sm">
+                    REMOVE FROM CART
+                  </button>
+                  <button class="btn btn-secondary btn-sm">
+                    MOVE TO WISHLIST
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-horizontal">
+              <img
+                class="card-img-horizontal"
+                src="https://i.pinimg.com/564x/57/67/15/576715615b593b62aa1fabb654a9e9ac.jpg"
+                alt="card image"
+              />
+              <div class="card-content-horizontal pd-bottom-2x">
+                <div class="card-content">
+                  <p class="card-title hide-ovrflw">The Last Doll</p>
+                  <p class="card-sub-title hide-ovrflw">Stephen Tompkins</p>
+                  <div class="price-container">
+                    <p class="card-description hide-ovrflw fw-4x">00.14 ETH</p>
+                    <p class="card-description hide-ovrflw text-gray strike">
+                      00.18 ETH
+                    </p>
+                  </div>
+
+                  <div class="rating-container">
+                    <i class="rating rating-solid"></i>
+                    <i class="rating rating-solid"></i>
+                    <i class="rating rating-solid"></i>
+                    <i class="rating"></i>
+                    <i class="rating"></i>
+                    <span class="txt-rating"> | (112)</span>
+                  </div>
+                  <div class="quantity mg-top-2x">
+                    <p class="quantity-title">Quantity :</p>
+                    <ion-icon
+                      name="remove"
+                      class="quantity-btn mg-left-2x"
+                    ></ion-icon>
+                    <p class="quantity-value mg-left-1x text-center">2</p>
+                    <ion-icon
+                      name="add"
+                      class="quantity-btn mg-left-1x"
+                    ></ion-icon>
+                  </div>
+                </div>
+                <div class="card-btn-container">
+                  <button class="btn btn-primary btn-sm">
+                    REMOVE FROM CART
+                  </button>
+                  <button class="btn btn-secondary btn-sm">
+                    MOVE TO WISHLIST
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-horizontal">
+              <img
+                class="card-img-horizontal"
+                src="https://i.pinimg.com/564x/80/7e/d1/807ed139064deeebf6aa0690c75ec2ca.jpg"
+                alt="card image"
+              />
+              <div class="card-content-horizontal pd-bottom-2x">
+                <div class="card-content">
+                  <p class="card-title hide-ovrflw">Crypto Van Gogh Punk</p>
+                  <p class="card-sub-title hide-ovrflw">Bored ape club</p>
+                  <div class="price-container">
+                    <p class="card-description hide-ovrflw fw-4x">00.12 ETH</p>
+                    <p class="card-description hide-ovrflw text-gray strike">
+                      00.16 ETH
+                    </p>
+                  </div>
+
+                  <div class="rating-container">
+                    <i class="rating rating-solid"></i>
+                    <i class="rating rating-solid"></i>
+                    <i class="rating rating-solid"></i>
+                    <i class="rating"></i>
+                    <i class="rating"></i>
+                    <span class="txt-rating"> | (87)</span>
+                  </div>
+                  <div class="quantity mg-top-2x">
+                    <p class="quantity-title">Quantity :</p>
+                    <ion-icon
+                      name="remove"
+                      class="quantity-btn mg-left-2x"
+                    ></ion-icon>
+                    <p class="quantity-value mg-left-1x text-center">1</p>
+                    <ion-icon
+                      name="add"
+                      class="quantity-btn mg-left-1x"
+                    ></ion-icon>
+                  </div>
+                </div>
+                <div class="card-btn-container">
+                  <button class="btn btn-primary btn-sm">
+                    REMOVE FROM CART
+                  </button>
+                  <button class="btn btn-secondary btn-sm">
+                    MOVE TO WISHLIST
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="checkout-section">
+          <div class="card card-only-text">
+            <div class="card-content">
+              <p class="card-title">Card with only text</p>
+              <p class="card-sub-title">Card</p>
+              <p class="card-description">
+                Cards contain content and actions about a single subject. Cards
+                contain content and actions about a single subject. Cards
+                contain content and actions about a single subject.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- product script -->
+    <script src="product.js"></script>
+
+    <!-- Ion Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
