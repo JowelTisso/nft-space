@@ -38,6 +38,7 @@
 
 .card-horizontal {
   height: fit-content;
+  min-width: 60rem;
 }
 
 .card-content-horizontal {
@@ -47,10 +48,6 @@
 .card-content-horizontal .card-btn-container {
   display: flex;
   flex-direction: column;
-}
-
-.card-btn-container .btn {
-  width: 100%;
 }
 
 .price-container {
@@ -83,6 +80,11 @@
 
 .quantity-btn:hover {
   background-color: var(--secondary-color-light);
+}
+
+/* Checkout */
+.hr {
+  border-top: 1px solid var(--bg-color-3);
 }
 
 /* Utils */

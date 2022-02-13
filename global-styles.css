@@ -206,7 +206,7 @@ body {
 
 .card-img-horizontal {
   object-fit: cover;
-  width: 20rem;
+  width: 22rem;
   height: auto;
 }
 
@@ -229,4 +229,28 @@ body {
 .txt-rating {
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+/* typography */
+
+.text-left {
+  text-align: start;
+}
+.text-right {
+  text-align: end;
+}
+
+/* width */
+.wd-3x {
+  width: 30rem;
+}
+.wd-4x {
+  width: 40rem;
+}
+.wd-5x {
+  width: 50rem;
+}
+
+.wd-full {
+  width: 100%;
 }
