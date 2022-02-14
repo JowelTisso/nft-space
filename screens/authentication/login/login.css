@@ -1,0 +1,21 @@
+/* Login */
+
+.card {
+  flex-direction: column;
+}
+
+.btn-link-secondary {
+  color: var(--secondary-color);
+  padding: 0;
+}
+
+.btn-link-secondary:hover {
+  color: var(--secondary-color-light);
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
