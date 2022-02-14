@@ -1,4 +1,4 @@
-/* Login */
+/* Singup */
 
 .card {
   flex-direction: column;
@@ -11,10 +11,6 @@
 
 .btn-link-secondary:hover {
   color: var(--secondary-color-light);
-}
-
-.info-container {
-  justify-content: space-between;
 }
 
 .bottom-nav-container {
