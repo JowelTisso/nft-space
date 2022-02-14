@@ -30,3 +30,14 @@
 .goto-icon {
   font-size: 2rem;
 }
+
+.toggle-icon-container {
+  position: relative;
+}
+
+.toggle-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+}
