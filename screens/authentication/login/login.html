@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/global-styles.css" />
+    <link rel="stylesheet" href="../auth.css" />
+  </head>
+  <body>
+    <header class="header-container pd-1x pd-right-4x pd-left-4x">
+      <div class="logo-container">
+        <img class="logo" src="/assets/logo.png" alt="logo" />
+        <a class="h3 mg-left-1x pointer logo-title no-deco" href="/index.html">
+          SPACE</a
+        >
+      </div>
+      <div class="header-middle">
+        <div class="input-container search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" class="input-simple" placeholder="Search" />
+        </div>
+      </div>
+
+      <nav class="nav-container">
+        <div class="badge-container pointer mg-left-4x">
+          <a href="/screens/wishlist/wishlist.html">
+            <ion-icon name="heart-outline" class="ic-normal"></ion-icon>
+          </a>
+          <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
+        </div>
+
+        <div class="badge-container pointer mg-left-4x">
+          <a href="/screens/cart/cart.html">
+            <ion-icon name="cart-outline" class="ic-normal"></ion-icon>
+          </a>
+          <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
+        </div>
+
+        <a href="/screens/cart/cart.html" class="nav-link"> Cart </a>
+      </nav>
+
+      <!-- <div id="drawer-menu" class="header-menu-mb">
+        <i class="fas fa-bars fa-2x"></i>
+      </div> -->
+    </header>
+    <div class="content-wrapper mg-top-6x pd-top-1x flex-center">
+      <div class="card wd-5x flex-center pd-5x">
+        <p class="h3 text-center mg-top-2x mg-bottom-4x">Login</p>
+
+        <div class="input-container mg-top-2x wd-4x">
+          <label class="input-label">Email address</label>
+          <input
+            type="email"
+            class="input-simple"
+            placeholder="neog@gmail.com"
+          />
+          <p class="input-val val-warn">Input password</p>
+        </div>
+
+        <div class="input-container mg-top-3x wd-4x">
+          <label class="input-label">Password</label>
+          <div class="toggle-icon-container">
+            <input type="password" class="input-simple" placeholder="*******" />
+            <ion-icon name="eye-off" class="toggle-icon"></ion-icon>
+          </div>
+          <p class="input-val val-warn">Input password</p>
+        </div>
+
+        <div class="info-container flex-center mg-2x wd-4x">
+          <div>
+            <input type="checkbox" class="checkbox" />
+            <label class="t4 mg-left-1x">Remember me</label>
+          </div>
+          <button class="btn-link btn-link-secondary t4">
+            Forgot your password?
+          </button>
+        </div>
+
+        <button class="btn btn-primary wd-full mg-top-2x">Login</button>
+
+        <div class="bottom-nav-container mg-top-2x">
+          <a href="../signup/signup.html" class="t4 text-center pointer no-deco"
+            >Create New Account</a
+          >
+          <ion-icon
+            name="chevron-forward"
+            class="goto-icon mg-left-1x"
+          ></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ion Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

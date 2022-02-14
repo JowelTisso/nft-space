@@ -254,3 +254,10 @@ body {
 .wd-full {
   width: 100%;
 }
+
+/* flex-center */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
