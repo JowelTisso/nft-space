@@ -1,9 +1,9 @@
-/* Login */
-
+/* Container */
 .card {
   flex-direction: column;
 }
 
+/* Button */
 .btn-link-secondary {
   color: var(--secondary-color);
   padding: 0;
@@ -17,6 +17,11 @@
   justify-content: space-between;
 }
 
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .bottom-nav-container {
   display: flex;
   align-items: center;
@@ -24,9 +29,4 @@
 
 .goto-icon {
   font-size: 2rem;
-}
-
-.checkbox {
-  width: 1.5rem;
-  height: 1.5rem;
 }
