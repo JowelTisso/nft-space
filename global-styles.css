@@ -56,6 +56,14 @@ body {
   justify-content: center;
 }
 
+.search-icon {
+  display: none;
+}
+
+.login-icon {
+  display: none;
+}
+
 /* Typography */
 
 .logo-title {
@@ -260,4 +268,98 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  /* Header */
+
+  .header-container {
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .header-middle {
+    display: none;
+  }
+
+  .btn-login {
+    display: none;
+  }
+
+  .cart-label {
+    display: none;
+  }
+
+  .badge-container {
+    margin-left: 2rem;
+  }
+
+  .search-icon {
+    display: block;
+  }
+
+  .login-icon {
+    margin-left: 2rem;
+    display: block;
+  }
+
+  /* Content container */
+  .content {
+    padding: 0;
+  }
+
+  /* Horizontal category scroll */
+  .row-category-container {
+    justify-content: flex-start;
+  }
+
+  .scroll {
+    gap: 1.5rem;
+    margin: auto 0.5rem;
+  }
+
+  /* Carousel */
+  .carousel {
+    height: 22rem;
+  }
+
+  .img-carousel {
+    width: 95%;
+    height: 100%;
+  }
+
+  /* More card */
+  .category-card-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .card-horizontal {
+    height: 16rem;
+    min-width: 95%;
+    overflow: hidden;
+  }
+
+  .card-img-horizontal {
+    width: auto;
+    height: 16rem;
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  .card-sub-title {
+    margin-bottom: 5px;
+  }
+
+  .card-description {
+    font-size: 1.5rem;
+  }
 }
