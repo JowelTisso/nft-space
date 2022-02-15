@@ -34,7 +34,7 @@
       <nav class="nav-container">
         <a
           href="../authentication/login/login.html"
-          class="btn btn-secondary btn-sm no-deco"
+          class="btn btn-secondary btn-sm no-deco btn-login"
           >Logout</a
         >
 
@@ -50,7 +50,13 @@
           <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
         </div>
 
-        <a class="nav-link"> Cart </a>
+        <div class="pointer login-icon">
+          <a href="/screens/authentication/login/login.html">
+            <ion-icon name="log-out-outline" class="ic-normal"></ion-icon>
+          </a>
+        </div>
+
+        <a class="nav-link cart-label"> Cart </a>
       </nav>
 
       <!-- <div id="drawer-menu" class="header-menu-mb">
@@ -242,7 +248,9 @@
               <p class="t4">You will save 0.04 ETH</p>
             </div>
 
-            <button class="btn btn-primary btn-sm mg-top-3x wd-full">
+            <button
+              class="btn btn-primary btn-sm mg-top-3x wd-full btn-place-order"
+            >
               PLACE ORDER
             </button>
           </div>

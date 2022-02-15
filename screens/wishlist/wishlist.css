@@ -1,7 +1,6 @@
 /***********/
 /* Content */
 .content {
-  /* margin-left: 28rem; */
   margin-top: 6rem;
   background-color: var(--bg-color-3);
 }
@@ -14,7 +13,6 @@
 .content-card-section {
   display: flex;
   gap: 1rem;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
 
@@ -45,4 +43,15 @@
 
 .badge-active {
   color: var(--cta-color);
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 42%;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 20rem;
+  }
 }

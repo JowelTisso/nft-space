@@ -96,3 +96,54 @@
 .strike {
   text-decoration: line-through;
 }
+
+@media screen and (max-width: 700px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+
+  .content-header {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .product-section {
+    margin: 0;
+  }
+
+  .card {
+    padding-bottom: 2rem;
+  }
+
+  .card-horizontal {
+    min-width: 95%;
+  }
+
+  .card-content-horizontal .card-btn-container {
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .card-btn-container .btn {
+    font-size: 1.3rem;
+  }
+
+  .checkout-container {
+    width: 85%;
+    margin: auto;
+  }
+
+  .btn-place-order {
+    margin-left: auto;
+  }
+
+  .wd-full {
+    flex: 1;
+    width: 50%;
+  }
+}

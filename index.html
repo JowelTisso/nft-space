@@ -10,6 +10,9 @@
   </head>
   <body>
     <header class="header-container pd-1x pd-right-4x pd-left-4x">
+      <!-- <div id="drawer-menu" class="header-menu-mb pd-left-1x">
+        <i class="fas fa-bars fa-2x"></i>
+      </div> -->
       <div class="logo-container">
         <img class="logo" src="./assets/logo.png" alt="logo" />
         <a
@@ -29,9 +32,14 @@
       <nav class="nav-container">
         <a
           href="./screens/authentication/login/login.html"
-          class="btn btn-primary btn-sm no-deco"
+          class="btn btn-primary btn-sm no-deco btn-login"
           >Login</a
         >
+        <div class="pointer search-icon">
+          <a>
+            <ion-icon name="search-outline" class="ic-normal"></ion-icon>
+          </a>
+        </div>
 
         <div class="badge-container pointer mg-left-4x">
           <a href="./screens/wishlist/wishlist.html">
@@ -47,130 +55,135 @@
           <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
         </div>
 
-        <a href="./screens/cart/cart.html" class="nav-link"> Cart </a>
+        <div class="pointer login-icon">
+          <a href="./screens/authentication/login/login.html">
+            <ion-icon name="log-in-outline" class="ic-normal"></ion-icon>
+          </a>
+        </div>
+
+        <a href="./screens/cart/cart.html" class="nav-link cart-label">
+          Cart
+        </a>
       </nav>
-
-      <!-- <div id="drawer-menu" class="header-menu-mb">
-        <i class="fas fa-bars fa-2x"></i>
-      </div> -->
     </header>
+    <div class="wrapper mg-top-6x">
+      <main class="content pd-5x pd-top-2x">
+        <div class="row-category-container hide-scroll">
+          <div class="scroll pd-1x">
+            <div class="category-item pointer">
+              <a href="./screens/product/product.html">
+                <img
+                  class="img-category"
+                  src="https://momintdev.blob.core.windows.net/uploads/18fc611a-873f-49f7-8259-c2e3597a7b1e.png"
+                  alt="Art"
+                />
+              </a>
+              <p class="t4 text-center">Art</p>
+            </div>
 
-    <main class="content mg-top-6x pd-5x pd-top-2x">
-      <div class="row-category-container hide-scroll">
-        <div class="scroll pd-1x">
-          <div class="category-item pointer">
-            <a href="./screens/product/product.html">
-              <img
-                class="img-category"
-                src="https://momintdev.blob.core.windows.net/uploads/18fc611a-873f-49f7-8259-c2e3597a7b1e.png"
-                alt="Art"
-              />
-            </a>
-            <p class="t4 text-center">Art</p>
-          </div>
+            <div class="category-item pointer">
+              <a href="./screens/product/product.html">
+                <img
+                  class="img-category"
+                  src="https://momintdev.blob.core.windows.net/uploads/3829c86a-9b53-4f8a-9f20-660791f9422c.png"
+                  alt="Art"
+                />
+              </a>
+              <p class="t4 text-center">Collectibles</p>
+            </div>
 
-          <div class="category-item pointer">
-            <a href="./screens/product/product.html">
-              <img
-                class="img-category"
-                src="https://momintdev.blob.core.windows.net/uploads/3829c86a-9b53-4f8a-9f20-660791f9422c.png"
-                alt="Art"
-              />
-            </a>
-            <p class="t4 text-center">Collectibles</p>
-          </div>
+            <div class="category-item pointer">
+              <a href="./screens/product/product.html">
+                <img
+                  class="img-category"
+                  src="https://momintdev.blob.core.windows.net/uploads/84b90ff6-e7e4-4706-be55-c61f45364b3e.jpg"
+                  alt="Art"
+                />
+              </a>
+              <p class="t4 text-center">Music</p>
+            </div>
 
-          <div class="category-item pointer">
-            <a href="./screens/product/product.html">
-              <img
-                class="img-category"
-                src="https://momintdev.blob.core.windows.net/uploads/84b90ff6-e7e4-4706-be55-c61f45364b3e.jpg"
-                alt="Art"
-              />
-            </a>
-            <p class="t4 text-center">Music</p>
-          </div>
+            <div class="category-item pointer">
+              <a href="./screens/product/product.html">
+                <img
+                  class="img-category"
+                  src="https://momintdev.blob.core.windows.net/uploads/065a4b8a-0c81-4d2c-9616-1be39fd32df5.png"
+                  alt="Art"
+                />
+              </a>
+              <p class="t4 text-center">Photography</p>
+            </div>
 
-          <div class="category-item pointer">
-            <a href="./screens/product/product.html">
-              <img
-                class="img-category"
-                src="https://momintdev.blob.core.windows.net/uploads/065a4b8a-0c81-4d2c-9616-1be39fd32df5.png"
-                alt="Art"
-              />
-            </a>
-            <p class="t4 text-center">Photography</p>
-          </div>
+            <div class="category-item pointer">
+              <a href="./screens/product/product.html">
+                <img
+                  class="img-category"
+                  src="https://momintdev.blob.core.windows.net/uploads/09c44f18-4246-480a-a1b5-88ab7be6f282.jpg"
+                  alt="Art"
+                />
+              </a>
+              <p class="t4 text-center">Sports</p>
+            </div>
 
-          <div class="category-item pointer">
-            <a href="./screens/product/product.html">
-              <img
-                class="img-category"
-                src="https://momintdev.blob.core.windows.net/uploads/09c44f18-4246-480a-a1b5-88ab7be6f282.jpg"
-                alt="Art"
-              />
-            </a>
-            <p class="t4 text-center">Sports</p>
-          </div>
-
-          <div class="category-item pointer">
-            <a href="./screens/product/product.html">
-              <img
-                class="img-category"
-                src="https://momintdev.blob.core.windows.net/uploads/18fc611a-873f-49f7-8259-c2e3597a7b1e.png"
-                alt="Art"
-              />
-            </a>
-            <p class="t4 text-center">Utility</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel mg-top-2x">
-        <img
-          class="img-carousel pointer"
-          src="https://user-images.githubusercontent.com/52632590/153457954-a3cb3152-bfde-42db-bb34-e113825757d9.png"
-          alt="Carousel"
-        />
-      </div>
-
-      <div class="category-card-container mg-6x mg-top-6x">
-        <div class="card card-horizontal pointer">
-          <img
-            class="card-img-horizontal"
-            src="https://i.pinimg.com/736x/f3/17/c0/f317c046fc27f52bd4398d9fcc0a0272.jpg"
-            alt="card image"
-          />
-          <div class="card-content-horizontal">
-            <div class="card-content">
-              <p class="card-title t3">Popular</p>
-              <p class="card-sub-title t4">category</p>
-              <p class="card-description t4">
-                NFT that are popular this year, which will lead you in
-                discovering cool nfts.
-              </p>
+            <div class="category-item pointer">
+              <a href="./screens/product/product.html">
+                <img
+                  class="img-category"
+                  src="https://momintdev.blob.core.windows.net/uploads/18fc611a-873f-49f7-8259-c2e3597a7b1e.png"
+                  alt="Art"
+                />
+              </a>
+              <p class="t4 text-center">Utility</p>
             </div>
           </div>
         </div>
-        <div class="card card-horizontal pointer">
+
+        <div class="carousel mg-top-2x">
           <img
-            class="card-img-horizontal"
-            src="https://i.pinimg.com/originals/1a/72/88/1a72888549a53fc0726a4dfc5eef6626.gif"
-            alt="card image"
+            class="img-carousel pointer"
+            src="https://user-images.githubusercontent.com/52632590/153457954-a3cb3152-bfde-42db-bb34-e113825757d9.png"
+            alt="Carousel"
           />
-          <div class="card-content-horizontal">
-            <div class="card-content">
-              <p class="card-title t3">Trending</p>
-              <p class="card-sub-title t4">category</p>
-              <p class="card-description t4">
-                NFT that are trending this year, which will lead you in
-                discovering cool nfts.
-              </p>
+        </div>
+
+        <div class="category-card-container mg-6x mg-top-6x">
+          <div class="card card-horizontal pointer">
+            <img
+              class="card-img-horizontal"
+              src="https://i.pinimg.com/736x/f3/17/c0/f317c046fc27f52bd4398d9fcc0a0272.jpg"
+              alt="card image"
+            />
+            <div class="card-content-horizontal">
+              <div class="card-content">
+                <p class="card-title t3">Popular</p>
+                <p class="card-sub-title t4">category</p>
+                <p class="card-description t4">
+                  NFT that are popular this year, which will lead you in
+                  discovering cool nfts.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-horizontal pointer">
+            <img
+              class="card-img-horizontal"
+              src="https://i.pinimg.com/originals/1a/72/88/1a72888549a53fc0726a4dfc5eef6626.gif"
+              alt="card image"
+            />
+            <div class="card-content-horizontal">
+              <div class="card-content">
+                <p class="card-title t3">Trending</p>
+                <p class="card-sub-title t4">category</p>
+                <p class="card-description t4">
+                  NFT that are trending this year, which will lead you in
+                  discovering cool nfts.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
 
     <!-- Ion Icons -->
     <script
