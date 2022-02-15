@@ -15,6 +15,9 @@
   </head>
   <body>
     <header class="header-container pd-1x pd-right-4x pd-left-4x">
+      <div id="drawer-menu" class="header-menu-mb">
+        <i id="menu-icon" class="fas fa-bars fa-2x"></i>
+      </div>
       <div class="logo-container">
         <img class="logo" src="../../assets/logo.png" alt="logo" />
         <a
@@ -34,9 +37,15 @@
       <nav class="nav-container">
         <a
           href="../authentication/login/login.html"
-          class="btn btn-primary btn-sm no-deco"
+          class="btn btn-primary btn-sm no-deco btn-login"
           >Login</a
         >
+
+        <div class="pointer search-icon">
+          <a>
+            <ion-icon name="search-outline" class="ic-normal"></ion-icon>
+          </a>
+        </div>
 
         <div class="badge-container pointer mg-left-4x">
           <a href="../wishlist/wishlist.html">
@@ -52,17 +61,13 @@
           <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
         </div>
 
-        <a href="../cart/cart.html" class="nav-link"> Cart </a>
+        <a href="../cart/cart.html" class="nav-link cart-label"> Cart </a>
       </nav>
-
-      <!-- <div id="drawer-menu" class="header-menu-mb">
-        <i class="fas fa-bars fa-2x"></i>
-      </div> -->
     </header>
     <div class="content-wrapper">
       <aside
         id="drawer"
-        class="sidenav pd-left-4x pd-top-2x pd-right-2x pd-bottom-3x"
+        class="sidenav pd-left-4x pd-top-2x pd-right-2x pd-bottom-3x hide-nav"
       >
         <nav>
           <ul class="no-bullet">
