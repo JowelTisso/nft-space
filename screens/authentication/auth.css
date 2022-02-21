@@ -3,6 +3,11 @@
   flex-direction: column;
 }
 
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Button */
 .btn-link-secondary {
   color: var(--secondary-color);
