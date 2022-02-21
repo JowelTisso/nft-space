@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign up</title>
+    <title>Logout</title>
     <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="/global-styles.css" />
     <link rel="stylesheet" href="../auth.css" />
@@ -39,12 +39,17 @@
           <p class="badge bdg-s bdg-ic bdg-ic-t">0</p>
         </div>
 
-        <a href="/screens/cart/cart.html" class="nav-link cart-label"> Cart </a>
+        <a href="/screens/cart/cart.html" class="nav-link"> Cart </a>
       </nav>
+
+      <!-- <div id="drawer-menu" class="header-menu-mb">
+        <i class="fas fa-bars fa-2x"></i>
+      </div> -->
     </header>
     <div class="content-wrapper mg-top-6x pd-top-1x flex-center">
+      <p class="alert alert-success">Successfully logged out</p>
       <div class="card wd-5x flex-center pd-5x">
-        <p class="h3 text-center mg-top-2x mg-bottom-4x">Signup</p>
+        <p class="h3 text-center mg-top-2x mg-bottom-4x">Login</p>
 
         <div class="input-container mg-top-2x wd-4x">
           <label class="input-label">Email address</label>
@@ -65,22 +70,21 @@
           <p class="input-val val-warn">Input password</p>
         </div>
 
-        <div class="info-container mg-2x wd-4x">
+        <div class="info-container flex-center mg-2x wd-4x">
           <div>
             <input type="checkbox" class="checkbox" />
-            <label class="t4 mg-left-1x"
-              >I accept all Terms and Conditions</label
-            >
+            <label class="t4 mg-left-1x">Remember me</label>
           </div>
+          <button class="btn-link btn-link-secondary t4">
+            Forgot your password?
+          </button>
         </div>
 
-        <button class="btn btn-primary wd-full mg-top-2x">
-          Create New Account
-        </button>
+        <button class="btn btn-primary wd-full mg-top-2x">Login</button>
 
         <div class="bottom-nav-container mg-top-2x">
-          <a href="../login/login.html" class="t4 text-center pointer no-deco"
-            >Already have an account</a
+          <a href="../signup/signup.html" class="t4 text-center pointer no-deco"
+            >Create New Account</a
           >
           <ion-icon
             name="chevron-forward"
