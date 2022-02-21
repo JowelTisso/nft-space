@@ -55,4 +55,8 @@
   .wd-4x {
     width: 100%;
   }
+
+  .alert {
+    width: 80%;
+  }
 }

@@ -97,6 +97,24 @@
   text-decoration: line-through;
 }
 
+@media screen and (max-width: 850px) {
+  .content {
+    padding-left: 0;
+  }
+
+  .product-section {
+    margin-left: 0;
+  }
+
+  .card {
+    min-width: 50rem;
+  }
+
+  .checkout-container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .content {
     display: flex;

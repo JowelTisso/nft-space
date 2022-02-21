@@ -215,7 +215,7 @@ body {
 .card-img-horizontal {
   object-fit: cover;
   width: 22rem;
-  height: auto;
+  /* height: auto; */
 }
 
 /* Content */
@@ -300,7 +300,10 @@ body {
 
   .login-icon {
     margin-left: 2rem;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
   }
 
   /* Content container */
@@ -342,7 +345,7 @@ body {
   }
 
   .card-img-horizontal {
-    width: auto;
+    width: 15rem;
     height: 16rem;
   }
 
